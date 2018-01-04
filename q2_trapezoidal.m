@@ -10,6 +10,7 @@ x1=0:h:5;
 x=0:(1/100):5;
 y=0.1*exp(-5*x);
 
+% Plotting the figure
 plot(x,y,'b',x1,w,'r')
 title('trapezoidal')
 legend('exact','trapezoidal')
